@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>चिकन शॉप</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>नितेश फ्रेश चिकन और अंडा शॉप</h1>
+    <nav>
+      <a href="#products">हमारे प्रोडक्ट्स</a>
+      <a href="#cart">आपकी टोकरी</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>ताजा और शुद्ध चिकन खरीदें</h2>
+    </section>
+
+    <section id="products" class="product-list">
+      <h2>हमारे प्रोडक्ट्स</h2>
+      <div class="product" data-id="1">
+        <img src="images/chicken1.jpg" alt="Whole Chicken">
+        <h3>होल चिकन</h3>
+        <p>₹1000</p>
+        <button class="add-to-cart">टोकरी में जोड़ें</button>
+      </div>
+      <div class="product" data-id="2">
+        <img src="images/chicken2.jpg" alt="Desi Chicken">
+        <h3>देसी चिकन</h3>
+        <p>₹1500</p>
+        <button class="add-to-cart">टोकरी में जोड़ें</button>
+      </div>
+    </section>
+
+    <section id="cart" class="cart">
+      <h2>आपकी टोकरी</h2>
+      <ul class="cart-items"></ul>
+      <p class="total">कुल: ₹0.00</p>
+      <button class="checkout">खरीदारी पूरी करें</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 नितेश फ्रेश चिकन शॉप। यहां आपको बिना हार्मोन और एंटीबायोटिक के शुद्ध चिकन मिलेगा।</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
